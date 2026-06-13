@@ -13,7 +13,7 @@ This release contains the three hard-attention models compared in the paper:
 |---|---|
 | **RAM**  | Mnih et al. 2014 baseline — single LSTM. |
 | **DRAM** | Ba 2015 baseline — two stacked LSTMs + a CNN context init for the upper state. |
-| **MRAM** | **Main contribution.** Two stacked LSTMs without gating. Lower layer drives the location policy (SC-like, fast saccadic timescale), upper layer drives classification (visual-cortex-like, slow recognition timescale). The REINFORCE baseline is a hybrid MLP over `concat([h_t1, h_t2])` (eq. 8 of the paper). |
+| **MRAM** | **Main contribution.** Two stacked LSTMs: Lower layer drives the location policy (SC-like, fast saccadic timescale), upper layer drives classification (visual-cortex-like, slow recognition timescale). The REINFORCE baseline is a hybrid MLP over `concat([h_t1, h_t2])` (eq. 8 of the paper). |
 
 ## Install
 
