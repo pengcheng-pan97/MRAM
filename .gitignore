@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+
+# Datasets & training outputs
+data/
+runs/
+ckpt/
+checkpoints/
+logs/
+plots/
+*.pth
+*.tar
+*.p
+*.pkl
+*.npy
+
+# Published paper PDF — not redistributed here (Springer (c); see README links)
+papers/
+*.pdf
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
